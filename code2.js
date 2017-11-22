@@ -4,7 +4,7 @@ $(document).ready(function(){
     });
     $("#image").click(function(){
       if($("#image").attr("title") != "marko"){
-        $("#image").attr("src","C:\\Raycka\\DOCUMENTS\\SALLE\\DAW_M06_02\\user.png");
+        $("#image").attr("src","user.png");
         $("#image").attr("title","marko");
       }else{
         $("#image").attr("src","https://www.serishirts.com//32939-54086-tm_home_default/wd-camiseta-negan-lucille-team.jpg");
